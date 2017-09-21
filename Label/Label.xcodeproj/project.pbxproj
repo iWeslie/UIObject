@@ -13,6 +13,7 @@
 		D38A297A1F72926A005887BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D38A29791F72926A005887BB /* Assets.xcassets */; };
 		D38A29851F729D87005887BB /* UIFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38A29841F729D87005887BB /* UIFontViewController.swift */; };
 		D38A29871F729FCE005887BB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38A29861F729FCE005887BB /* Launch Screen.storyboard */; };
+		D3B621611F73546100BF5CC0 /* NSAttributedStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B621601F73546100BF5CC0 /* NSAttributedStringViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D38A297E1F72926A005887BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D38A29841F729D87005887BB /* UIFontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontViewController.swift; sourceTree = "<group>"; };
 		D38A29861F729FCE005887BB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D3B621601F73546100BF5CC0 /* NSAttributedStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D38A29721F72926A005887BB /* AppDelegate.swift */,
 				D38A29741F72926A005887BB /* ViewController.swift */,
 				D38A29841F729D87005887BB /* UIFontViewController.swift */,
+				D3B621601F73546100BF5CC0 /* NSAttributedStringViewController.swift */,
 				D38A29761F72926A005887BB /* Main.storyboard */,
 				D38A29791F72926A005887BB /* Assets.xcassets */,
 				D38A29861F729FCE005887BB /* Launch Screen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B621611F73546100BF5CC0 /* NSAttributedStringViewController.swift in Sources */,
 				D38A29751F72926A005887BB /* ViewController.swift in Sources */,
 				D38A29851F729D87005887BB /* UIFontViewController.swift in Sources */,
 				D38A29731F72926A005887BB /* AppDelegate.swift in Sources */,

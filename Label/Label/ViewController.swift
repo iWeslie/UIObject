@@ -18,7 +18,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var lbl5: UILabel!
     @IBOutlet weak var lbl7: UILabel!
     @IBOutlet weak var lbl8: UILabel!
-    
+    @IBOutlet weak var lbl9: UILabel!
+    @IBOutlet weak var lbl10: UILabel!
+    @IBOutlet weak var lbl11: UILabel!
+    @IBOutlet weak var lbl12: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,12 +39,25 @@ class ViewController: UIViewController {
         lbl5.textAlignment = .center
         
         lbl7.adjustsFontSizeToFitWidth = true
+        //the followin line work when adjustsFontSizeToFitWidth is true, default is alignBaselines
+        lbl7.baselineAdjustment = .alignCenters
         
         lbl8.adjustsFontSizeToFitWidth = true
-        lbl8.baselineAdjustment = .none
+        lbl8.baselineAdjustment = .alignBaselines
+        
+        print(lbl9.description)
+        
+        lbl10.allowsDefaultTighteningForTruncation = true
+        
+        lbl11.adjustsFontSizeToFitWidth = true
+        //the followin line work when adjustsFontSizeToFitWidth is true, default is 0
+        lbl11.minimumScaleFactor = 0.5
+        
+        lbl12.backgroundColor = UIColor.lightGray
         
         
     }
+    
 
 }
 
