@@ -28,7 +28,8 @@ class NSAttributedStringViewController: UIViewController {
     @IBOutlet weak var lbl12: UILabel!
     @IBOutlet weak var lbl13: UILabel!
     @IBOutlet weak var lbl14: UILabel!
-
+    @IBOutlet weak var lbl15: UILabel!
+    
 
     
 
@@ -67,6 +68,13 @@ class NSAttributedStringViewController: UIViewController {
 //        lbl13.attributedText = NSAttributedString(string: "shadow", attributes: [NSAttributedStringKey.textEffect : "letterpressStyle"])
         
         lbl13.attributedText = NSAttributedString(string: "underline", attributes: [NSAttributedStringKey.underlineColor : UIColor.blue, NSAttributedStringKey.underlineStyle : 1])
+        
+        let str = NSMutableAttributedString(string: "The Programming Language Swift")
+        let range1 = Range.init(4...14)
+        //add mutable attributes to a string
+        str.addAttribute(NSAttributedStringKey.foregroundColor, value: UIColor.lightGray, range: NSRange.init(range1))
+        str.addAttributes([NSAttributedStringKey.foregroundColor : UIColor.orange], range: NSRange.init(location: 25, length: 5))
+        lbl15.attributedText = str
 
 
     }

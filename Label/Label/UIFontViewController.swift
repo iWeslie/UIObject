@@ -13,9 +13,13 @@ class UIFontViewController: UIViewController {
     @IBAction func pressToDismiss(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
     }
+    @IBOutlet weak var lbl1: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
 
     }
 
