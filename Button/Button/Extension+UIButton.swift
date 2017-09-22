@@ -15,6 +15,8 @@ extension UIButton {
 //        case button
         case middle
     }
+    
+    //the label will beyond the button itself when the button's width is too narrow
     func moveImage(to edge: Edge) {
         switch edge {
         case .right:
