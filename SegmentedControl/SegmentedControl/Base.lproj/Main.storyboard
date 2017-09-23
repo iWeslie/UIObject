@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SegmentedControl" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="8TK-ok-QxC">
+                                <rect key="frame" x="96" y="20" width="183" height="29"/>
+                                <segments>
+                                    <segment title="Segemented"/>
+                                    <segment title="Control"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Momentory" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2N-dD-MCU">
+                                <rect key="frame" x="0.0" y="68" width="186.5" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="PGj-1d-11o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zqi-Vr-0DT">
+                                <rect key="frame" x="186.5" y="20" width="1" height="647"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="mQ1-ii-eYb"/>
+                                </constraints>
+                            </view>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" momentary="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qBz-Oq-oWz">
+                                <rect key="frame" x="217.5" y="65" width="127.5" height="29"/>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Z3U-V2-rz7">
+                                <rect key="frame" x="217" y="105" width="127.5" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="wfQ-yc-jx8"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="1"/>
+                                    <segment title="2"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="setDividerImage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Cn-4C-1i1">
+                                <rect key="frame" x="0.0" y="110" width="186.5" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="Z6N-G6-f92"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="setBackgroundImage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFh-TS-1qe">
+                                <rect key="frame" x="0.0" y="152" width="186.5" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="sBT-8c-9XW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Ror-2m-WVk">
+                                <rect key="frame" x="217" y="149" width="127.5" height="29"/>
+                                <segments>
+                                    <segment title=""/>
+                                    <segment title=""/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zqi-Vr-0DT" firstAttribute="leading" secondItem="R2N-dD-MCU" secondAttribute="trailing" id="2hO-VL-1dx"/>
+                            <constraint firstItem="Ror-2m-WVk" firstAttribute="leading" secondItem="qBz-Oq-oWz" secondAttribute="leading" id="5Ax-46-Rzc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qBz-Oq-oWz" secondAttribute="trailing" constant="30" id="5cj-y2-fvp"/>
+                            <constraint firstItem="zqi-Vr-0DT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5eX-9M-YN1"/>
+                            <constraint firstItem="zqi-Vr-0DT" firstAttribute="leading" secondItem="5Cn-4C-1i1" secondAttribute="trailing" id="6VS-iz-mMK"/>
+                            <constraint firstItem="5Cn-4C-1i1" firstAttribute="top" secondItem="R2N-dD-MCU" secondAttribute="bottom" constant="20" id="CDV-t0-TzY"/>
+                            <constraint firstItem="zqi-Vr-0DT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DNd-qs-Pdd"/>
+                            <constraint firstItem="zqi-Vr-0DT" firstAttribute="leading" secondItem="hFh-TS-1qe" secondAttribute="trailing" id="FBT-dr-y0m"/>
+                            <constraint firstItem="qBz-Oq-oWz" firstAttribute="centerY" secondItem="R2N-dD-MCU" secondAttribute="centerY" id="FNZ-Go-mKW"/>
+                            <constraint firstItem="Z3U-V2-rz7" firstAttribute="trailing" secondItem="qBz-Oq-oWz" secondAttribute="trailing" id="Hzq-X8-FQD"/>
+                            <constraint firstItem="Z3U-V2-rz7" firstAttribute="centerY" secondItem="5Cn-4C-1i1" secondAttribute="centerY" id="PuH-43-rvu"/>
+                            <constraint firstItem="hFh-TS-1qe" firstAttribute="top" secondItem="5Cn-4C-1i1" secondAttribute="bottom" constant="20" id="TJz-kT-YPE"/>
+                            <constraint firstItem="5Cn-4C-1i1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="UoO-Ks-cLN"/>
+                            <constraint firstItem="8TK-ok-QxC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Xrq-0K-4ym"/>
+                            <constraint firstItem="8TK-ok-QxC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="atu-EO-aSE"/>
+                            <constraint firstItem="R2N-dD-MCU" firstAttribute="top" secondItem="8TK-ok-QxC" secondAttribute="bottom" constant="20" id="ayz-UQ-86j"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zqi-Vr-0DT" secondAttribute="bottom" id="c0s-Jo-4xZ"/>
+                            <constraint firstItem="qBz-Oq-oWz" firstAttribute="leading" secondItem="zqi-Vr-0DT" secondAttribute="trailing" constant="30" id="c6J-Yg-cEh"/>
+                            <constraint firstItem="R2N-dD-MCU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fUe-va-oXO"/>
+                            <constraint firstItem="Ror-2m-WVk" firstAttribute="trailing" secondItem="qBz-Oq-oWz" secondAttribute="trailing" id="olh-VY-6oJ"/>
+                            <constraint firstItem="Ror-2m-WVk" firstAttribute="centerY" secondItem="hFh-TS-1qe" secondAttribute="centerY" id="shk-Fa-Q1Z"/>
+                            <constraint firstItem="hFh-TS-1qe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="uSQ-rq-SzI"/>
+                            <constraint firstItem="Z3U-V2-rz7" firstAttribute="leading" secondItem="qBz-Oq-oWz" secondAttribute="leading" id="z1V-8b-4Zv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="Ror-2m-WVk" id="tJj-7Z-by1"/>
+                        <outlet property="dividerImage" destination="Z3U-V2-rz7" id="lxq-Ln-p0x"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
