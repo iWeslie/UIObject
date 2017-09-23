@@ -8,5 +8,7 @@
 * UILabel
 * UIPopoverViewController
 * UIBlurEffectView
+* UISegmentedControl
+* UITextField
 
 
