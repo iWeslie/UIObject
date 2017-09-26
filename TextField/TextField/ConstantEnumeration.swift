@@ -43,3 +43,6 @@ let autoCapitalizationName = ["none",
                               "sentences",
                               "allCharacters"]
 
+
+UITextField
+
