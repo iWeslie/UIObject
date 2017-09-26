@@ -15,9 +15,9 @@
 		D3824D291F763B7F00180EE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3824D281F763B7F00180EE3 /* ViewController.swift */; };
 		D3824D2C1F763B7F00180EE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3824D2A1F763B7F00180EE3 /* Main.storyboard */; };
 		D3824D2E1F763B7F00180EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3824D2D1F763B7F00180EE3 /* Assets.xcassets */; };
-		D3824D311F763B7F00180EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3824D2F1F763B7F00180EE3 /* LaunchScreen.storyboard */; };
 		D385CAE81F79F7040022F69A /* TFInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D385CAE71F79F7040022F69A /* TFInputView.xib */; };
 		D385CAEA1F79F7160022F69A /* TFInputAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D385CAE91F79F7160022F69A /* TFInputAccessoryView.xib */; };
+		D385CB0A1F7A0FFB0022F69A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D385CB091F7A0FFB0022F69A /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,10 +30,10 @@
 		D3824D281F763B7F00180EE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D3824D2B1F763B7F00180EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3824D2D1F763B7F00180EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D3824D301F763B7F00180EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3824D321F763B7F00180EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D385CAE71F79F7040022F69A /* TFInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFInputView.xib; sourceTree = "<group>"; };
 		D385CAE91F79F7160022F69A /* TFInputAccessoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFInputAccessoryView.xib; sourceTree = "<group>"; };
+		D385CB091F7A0FFB0022F69A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 				D37EBE921F780BFB00FC74CD /* KeyboardSelectorPopView.swift */,
 				D323E8B21F78B7A400690028 /* SelectorCell.swift */,
 				D3824D2D1F763B7F00180EE3 /* Assets.xcassets */,
-				D3824D2F1F763B7F00180EE3 /* LaunchScreen.storyboard */,
+				D385CB091F7A0FFB0022F69A /* Launch Screen.storyboard */,
 				D3824D321F763B7F00180EE3 /* Info.plist */,
 			);
 			path = TextField;
@@ -142,9 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D385CAEA1F79F7160022F69A /* TFInputAccessoryView.xib in Resources */,
-				D3824D311F763B7F00180EE3 /* LaunchScreen.storyboard in Resources */,
 				D385CAE81F79F7040022F69A /* TFInputView.xib in Resources */,
 				D3824D2E1F763B7F00180EE3 /* Assets.xcassets in Resources */,
+				D385CB0A1F7A0FFB0022F69A /* Launch Screen.storyboard in Resources */,
 				D3824D2C1F763B7F00180EE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,14 +174,6 @@
 				D3824D2B1F763B7F00180EE3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D3824D2F1F763B7F00180EE3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3824D301F763B7F00180EE3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -297,7 +289,7 @@
 		D3824D361F763B7F00180EE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = UITextField;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -311,7 +303,7 @@
 		D3824D371F763B7F00180EE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = UITextField;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TextField/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
