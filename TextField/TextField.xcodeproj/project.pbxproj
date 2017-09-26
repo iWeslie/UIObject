@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D31BA6541F78AFEA00FEC8EF /* ConstantEnumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31BA6531F78AFEA00FEC8EF /* ConstantEnumeration.swift */; };
+		D323E8B31F78B7A400690028 /* SelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D323E8B21F78B7A400690028 /* SelectorCell.swift */; };
+		D37EBE911F77FCEB00FC74CD /* UITextInputTraitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37EBE901F77FCEB00FC74CD /* UITextInputTraitsViewController.swift */; };
+		D37EBE931F780BFB00FC74CD /* KeyboardSelectorPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37EBE921F780BFB00FC74CD /* KeyboardSelectorPopView.swift */; };
 		D3824D271F763B7F00180EE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3824D261F763B7F00180EE3 /* AppDelegate.swift */; };
 		D3824D291F763B7F00180EE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3824D281F763B7F00180EE3 /* ViewController.swift */; };
 		D3824D2C1F763B7F00180EE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3824D2A1F763B7F00180EE3 /* Main.storyboard */; };
 		D3824D2E1F763B7F00180EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3824D2D1F763B7F00180EE3 /* Assets.xcassets */; };
 		D3824D311F763B7F00180EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3824D2F1F763B7F00180EE3 /* LaunchScreen.storyboard */; };
+		D385CAE81F79F7040022F69A /* TFInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D385CAE71F79F7040022F69A /* TFInputView.xib */; };
+		D385CAEA1F79F7160022F69A /* TFInputAccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D385CAE91F79F7160022F69A /* TFInputAccessoryView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D31BA6531F78AFEA00FEC8EF /* ConstantEnumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantEnumeration.swift; sourceTree = "<group>"; };
+		D323E8B21F78B7A400690028 /* SelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorCell.swift; sourceTree = "<group>"; };
+		D37EBE901F77FCEB00FC74CD /* UITextInputTraitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextInputTraitsViewController.swift; sourceTree = "<group>"; };
+		D37EBE921F780BFB00FC74CD /* KeyboardSelectorPopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSelectorPopView.swift; sourceTree = "<group>"; };
 		D3824D231F763B7F00180EE3 /* TextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3824D261F763B7F00180EE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3824D281F763B7F00180EE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,8 @@
 		D3824D2D1F763B7F00180EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3824D301F763B7F00180EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3824D321F763B7F00180EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D385CAE71F79F7040022F69A /* TFInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFInputView.xib; sourceTree = "<group>"; };
+		D385CAE91F79F7160022F69A /* TFInputAccessoryView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TFInputAccessoryView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				D3824D261F763B7F00180EE3 /* AppDelegate.swift */,
+				D31BA6531F78AFEA00FEC8EF /* ConstantEnumeration.swift */,
 				D3824D281F763B7F00180EE3 /* ViewController.swift */,
+				D385CAE71F79F7040022F69A /* TFInputView.xib */,
+				D385CAE91F79F7160022F69A /* TFInputAccessoryView.xib */,
+				D37EBE901F77FCEB00FC74CD /* UITextInputTraitsViewController.swift */,
 				D3824D2A1F763B7F00180EE3 /* Main.storyboard */,
+				D37EBE921F780BFB00FC74CD /* KeyboardSelectorPopView.swift */,
+				D323E8B21F78B7A400690028 /* SelectorCell.swift */,
 				D3824D2D1F763B7F00180EE3 /* Assets.xcassets */,
 				D3824D2F1F763B7F00180EE3 /* LaunchScreen.storyboard */,
 				D3824D321F763B7F00180EE3 /* Info.plist */,
@@ -123,7 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D385CAEA1F79F7160022F69A /* TFInputAccessoryView.xib in Resources */,
 				D3824D311F763B7F00180EE3 /* LaunchScreen.storyboard in Resources */,
+				D385CAE81F79F7040022F69A /* TFInputView.xib in Resources */,
 				D3824D2E1F763B7F00180EE3 /* Assets.xcassets in Resources */,
 				D3824D2C1F763B7F00180EE3 /* Main.storyboard in Resources */,
 			);
@@ -137,7 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3824D291F763B7F00180EE3 /* ViewController.swift in Sources */,
+				D31BA6541F78AFEA00FEC8EF /* ConstantEnumeration.swift in Sources */,
+				D37EBE911F77FCEB00FC74CD /* UITextInputTraitsViewController.swift in Sources */,
 				D3824D271F763B7F00180EE3 /* AppDelegate.swift in Sources */,
+				D323E8B31F78B7A400690028 /* SelectorCell.swift in Sources */,
+				D37EBE931F780BFB00FC74CD /* KeyboardSelectorPopView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
