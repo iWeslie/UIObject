@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		D3569D261F7B7B43005A7B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3569D1D1F7B7B42005A7B72 /* ProgressView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D3569D081F7B7B42005A7B72;
+			remoteInfo = ProgressView;
+		};
 		D3BEE18E1F7B69CC00134625 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D3BEE18A1F7B69CC00134625 /* BlurEffectView.xcodeproj */;
@@ -73,6 +80,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D3569D1D1F7B7B42005A7B72 /* ProgressView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ProgressView.xcodeproj; path = ../ProgressView/ProgressView.xcodeproj; sourceTree = "<group>"; };
 		D3BEE1891F7B69C100134625 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D3BEE18A1F7B69CC00134625 /* BlurEffectView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BlurEffectView.xcodeproj; path = ../BlurEffectView/BlurEffectView.xcodeproj; sourceTree = "<group>"; };
 		D3BEE1961F7B69E800134625 /* Button.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Button.xcodeproj; path = ../Button/Button.xcodeproj; sourceTree = "<group>"; };
@@ -86,9 +94,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		D3569D1E1F7B7B42005A7B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3569D271F7B7B43005A7B72 /* ProgressView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D3BEE16B1F7B690B00134625 = {
 			isa = PBXGroup;
 			children = (
+				D3569D1D1F7B7B42005A7B72 /* ProgressView.xcodeproj */,
 				D3BEE2721F7B6C5500134625 /* ActivityIndicatorView.xcodeproj */,
 				D3BEE1891F7B69C100134625 /* README.md */,
 				D3BEE18A1F7B69CC00134625 /* BlurEffectView.xcodeproj */,
@@ -217,6 +234,10 @@
 					ProjectRef = D3BEE1A21F7B6A1800134625 /* Popover.xcodeproj */;
 				},
 				{
+					ProductGroup = D3569D1E1F7B7B42005A7B72 /* Products */;
+					ProjectRef = D3569D1D1F7B7B42005A7B72 /* ProgressView.xcodeproj */;
+				},
+				{
 					ProductGroup = D3BEE1A91F7B6A1C00134625 /* Products */;
 					ProjectRef = D3BEE1A81F7B6A1C00134625 /* SegmentedControl.xcodeproj */;
 				},
@@ -240,6 +261,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		D3569D271F7B7B43005A7B72 /* ProgressView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ProgressView.app;
+			remoteRef = D3569D261F7B7B43005A7B72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		D3BEE18F1F7B69CC00134625 /* BlurEffectView.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;

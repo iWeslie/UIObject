@@ -9,17 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var animatingAIView: UIActivityIndicatorView!
+    @IBAction func startOrStopAnimating(_ sender: UIButton) {
+        if animatingAIView.isAnimating == false {
+            animatingAIView.startAnimating()
+        } else {
+            animatingAIView.stopAnimating()
+        }
+    }
+    
+    @IBOutlet weak var hideWhenAnimatingStopAIDemostrateView: UIActivityIndicatorView!
+    @IBAction func hideWhenStop(_ sender: UIButton) {
+        hideWhenAnimatingStopAIDemostrateView.stopAnimating()
+        hideWhenAnimatingStopAIDemostrateView.hidesWhenStopped = true
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
 
